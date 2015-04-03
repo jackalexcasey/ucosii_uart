@@ -1,0 +1,37 @@
+/*
+*********************************************************************************************************
+*                                                uC/OS-II
+*                                          The Real-Time Kernel
+*
+*                           (c) Copyright 1992-1999, Jean J. Labrosse, Weston, FL
+*                                           All Rights Reserved
+*
+*                                           MASTER INCLUDE FILE
+*********************************************************************************************************
+*/
+
+#include    <intrinsics.h>
+#include    <stdlib.h>
+#include    <string.h>
+#include <stdio.h>
+
+#include    "os_cpu.h"
+#include    "os_cfg.h"
+#include    "ucos_ii.h"
+
+#include    "stm8s_conf.h"
+#include "stm8s_uart2.h"
+#include "stm8s_clk.h"
+#include"stm8s_adc1.h"
+
+
+#include"CircularQueue.h"
+
+#include "bsp_uart.h"
+#include "adc.h"
+#include"stm8s_interruput.h"
+#include"bsp.h"
+#include "awu.h"
+
+//#include"COMM_stm8s.h"
+#include"fifo.h"
